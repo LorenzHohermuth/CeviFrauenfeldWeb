@@ -1,32 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="App bg-cevi-grayWhite">
+      <nav className='w-80 bg-cevi-white h-full'>
+        <div className="flex flex-row text-xl font-bold items-center p-6">
+          <img src="/Images/Simple.png" className='h-12' alt="Cevi Logo" />
+          <div className='flex-col pl-1.5'>
+            <div className='absolute top-6'>Cevi</div>
+            <div className='absolute top-11'>Frauenfeld</div>
+          </div>
+        </div>
+        <div className='df bg-gradient-to-r from-cevi-red to-cevi-whiteRed'>
+          <img src="/Icons/Home.svg" alt="Home icon" />
+          dsjf
+        </div>
+      </nav>
     </div>
   )
 }
