@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
-    <img width="300" src="https://raw.githubusercontent.com/LorenzHohermuth/CeviFrauenfeldWeb/main/public/Images/Simple.png" alt="Vite logo">
+    <img width="300" src="https://raw.githubusercontent.com/LorenzHohermuth/CeviFrauenfeldWeb/main/public/Images/JustLogo.png" alt="Vite logo">
   </a>
 </p>
 <br/>
