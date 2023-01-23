@@ -15,9 +15,17 @@ module.exports = {
         red: '#EA1C20',
         whiteRed: '#E85658',
         black: '000000'
-      }
+      },
     },
-    extend: {},
+
+    extend: {
+      fontWeight: {
+        'cbold': 649,
+      },
+      borderRadius: {
+        '2xl': '1rem'
+      },
+    },
   },
   plugins: [],
 }
