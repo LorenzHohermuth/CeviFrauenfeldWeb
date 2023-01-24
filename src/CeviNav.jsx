@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CeviNav() {
   return (
-      <nav className='w-72 bg-cevi-white h-full sticky top-0'>
+      <nav className='w-72 bg-cevi-white h-screen sticky top-0 drop-shadow-2xl'>
           <div className="flex flex-row text-lg font-bold items-center p-6">
           <img src="/Images/Simple.png" className='h-10' alt="Cevi Logo" />
           <div className='flex-col pl-1.5'>
