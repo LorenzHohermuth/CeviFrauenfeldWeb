@@ -5,7 +5,7 @@ export default function Footer() {
     <div className=' bg-cevi-gray p-16 pb-10 w-full'>
 
         <div className='flex text-cevi-white font-cbold mb-10'>
-            <img src="/Images/LogoText.png" alt="cevifrauenfeld Logo" className='h-36'/>
+            <img src="/Images/LogoText.png" alt="cevifrauenfeld Logo" className='h-32'/>
 
             <div className='ml-12'>
                 Abteilungsleiter <br />
@@ -43,7 +43,7 @@ export default function Footer() {
 
         </div>
 
-        <div className='text-cevi-white font-cbold ml-96'>Impressum | Datenschutz | Cookie-Richtlinie | Sitemap</div>
+        <div className='text-cevi-white font-cbold'>Impressum | Datenschutz | Cookie-Richtlinie | Sitemap</div>
 
     </div>
   )

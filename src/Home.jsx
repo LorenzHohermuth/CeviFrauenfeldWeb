@@ -26,7 +26,7 @@ export default function Home() {
           <div className='w-1/2'>
             <div className='text-3xl font-cbold bg-cevi-white rounded-2xl px-7 py-6 mb-8'>
               Videoportrait
-              <iframe className='rounded-2xl w-full mt-4 h-96' src="https://www.youtube.com/embed/LyG-zXucT60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe className='rounded-2xl w-full mt-4 h-96' src="https://www.youtube.com/embed/LyG-zXucT60" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
             </div>
             <div className='bg-gradient-to-r from-cevi-red to-cevi-whiteRed text-3xl font-cbold rounded-2xl px-7 py-6 text-cevi-white flex flex-col items-center'>
               Wann ist Cevi - Datenplan
@@ -56,7 +56,7 @@ export default function Home() {
 
         </div> 
 
-        <div className=' bg-cevi-white w-full rounded-2xl px-7 py-6 my-8 text-cevi-gray'>
+        <div className=' bg-cevi-white w-full rounded-2xl px-7 py-6 mt-8 text-cevi-gray'>
 
           <div className='text-4xl font-cbold'>Cevi Frauenfeld - Wer sind wir?</div>
           <br />
