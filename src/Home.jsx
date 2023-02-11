@@ -1,8 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <>
       <div className="bg-cevi-grayWhite w-full p-8">
 
         <img src="/Images/HomeTent.jpg" alt="HomeTent" className='rounded-2xl w-full'/>
@@ -31,7 +31,7 @@ export default function Home() {
             <div className='bg-gradient-to-r from-cevi-red to-cevi-whiteRed text-3xl font-cbold rounded-2xl px-7 py-6 text-cevi-white flex flex-col items-center'>
               Wann ist Cevi - Datenplan
               <img src="/Icons/white/schedule.svg" alt="calender" className='w-1/2 mt-4' />
-              <a href="" className='flex rounded-xl bg-cevi-white p-3 text-cevi-gray font-cbold text-base w-64 justify-center'>Zu den Datenplänen</a>
+              <Link to="data" className='flex rounded-xl bg-cevi-white p-3 text-cevi-gray font-cbold text-base w-64 justify-center'>Zu den Datenplänen</Link>
             </div>
           </div>
 
@@ -74,12 +74,11 @@ export default function Home() {
             </div>
           </div>
 
-          <a href="" className='flex rounded-xl bg-gradient-to-r from-cevi-red to-cevi-whiteRed p-3 text-cevi-white font-cbold text-base w-64 justify-center'>Zu den Datenplänen</a>
+          <Link to="/" className='flex rounded-xl bg-gradient-to-r from-cevi-red to-cevi-whiteRed p-3 text-cevi-white font-cbold text-base w-64 justify-center'>Hier geht es zum Kontakt</Link>
 
         </div>
 
 
       </div>
-    </>
   )
 }
