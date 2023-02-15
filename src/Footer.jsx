@@ -14,8 +14,8 @@ export default function Footer() {
                 Bahnhofstrasse 88b <br />
                 8500 Frauenfeld <br />
                 <br />
-                <a href="">📞 079 / 324 49 80</a> <br />
-                <a href="">✏ olin@cevi-frauenfeld.ch</a> <br />
+                <a className='underline' href="tel:0793244980">📞 079 / 324 49 80</a> <br />
+                <a className='underline' href="mailto:olin@cevi-frauenfeld.ch">✏ olin@cevi-frauenfeld.ch</a> <br />
             </div>
 
             <div className='ml-12'>
@@ -25,8 +25,8 @@ export default function Footer() {
                 Hinterhorben 17 <br />
                 8524 Buch b. Frauenfeld <br />
                 <br />
-                <a href="">📞 078 / 740 68 33</a> <br />
-                <a href="">✏ joscheba@cevi-frauenfeld.ch</a> <br />
+                <a className='underline' href="tel:0787406833">📞 078 / 740 68 33</a> <br />
+                <a className='underline' href="mailto:joscheba@cevi-frauenfeld.ch">✏ joscheba@cevi-frauenfeld.ch</a> <br />
             </div>
 
             <div className='ml-12'>
@@ -36,8 +36,8 @@ export default function Footer() {
                 Rüti 10 <br />
                 8500 Frauenfeld <br />
                 <br />
-                <a href="">📞 052 / 720 53 58</a> <br />
-                <a href="">✏ elisabeth.rickenb@gmail.com</a> <br />
+                <a className='underline' href="tel:0527205358">📞 052 / 720 53 58</a> <br />
+                <a className='underline' href="mailto:elisabeth.rickenb@gmail.com">✏ elisabeth.rickenb@gmail.com</a> <br />
             </div>
 
 

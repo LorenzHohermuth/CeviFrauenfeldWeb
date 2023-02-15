@@ -75,6 +75,7 @@ export default function Home() {
           </div>
 
           <Link to="/" className='flex rounded-xl bg-gradient-to-r from-cevi-red to-cevi-whiteRed p-3 text-cevi-white font-cbold text-base w-64 justify-center'>Hier geht es zum Kontakt</Link>
+          
 
         </div>
 

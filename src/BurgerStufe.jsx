@@ -22,7 +22,7 @@ export default function BurgerStufe({state}) {
     <div className={display + ' sticky top-0 h-screen'}>
         <nav onMouseOver={() => setHover(true)} onMouseOut={() => setHover(false)} className='w-72 bg-cevi-grayWhite h-screen absolute pt-2'>
             <div className='my-5'>
-              <NavLink  to="fröschli" className={({ isActive }) =>isActive ? activeClassName : nonActiveClassName}>
+              <NavLink  to="froeschli" className={({ isActive }) =>isActive ? activeClassName : nonActiveClassName}>
                 {({ isActive }) => (
                   <>
                     <img src={`/Icons/${isActive ? "white" : "gray"}/Departements.svg`} className='h-9 ml-3 mr-1.5' alt="Stufen Icon" />

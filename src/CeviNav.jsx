@@ -11,7 +11,6 @@ export default function CeviNav() {
   const [ueberUnsIsActive, setUeberUnsIsActive] = useState(false);
 
   const activeClassName = 'bg-gradient-to-r from-cevi-red to-cevi-whiteRed h-10 mx-5 rounded-xl flex items-center drop-shadow-lg text-cevi-white';
-  const nonActiveClassNameHover = 'bg-cevi-grayWhite h-10 mx-5 rounded-xl flex items-center text-cevi-gray';
   const nonActiveClassName = 'bg-cevi-white h-10 mx-5 rounded-xl flex items-center hover:bg-cevi-grayWhite text-cevi-gray';
 
   return (
